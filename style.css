@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+}
+
+button {
+  color: white;
+  background-color: #333333;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size: 17px;
+}
+
+.intro {
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.calc-output {
+  text-align: right;
+  color: white;
+  background-color: black;
+  border: none;
+  width: 180px;
+  font-size: 25px;
+}
+
+.calc-container {
+  font-family: "SF Pro Display", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  width: auto;
+}
+
+.operator {
+  background-color: #ff9f0a;
+  font-size: 23px;
+  text-align: center;
+}
+
+.lg-buttons {
+  background-color: #a5a5a5;
+  text-align: center;
+}
+
+.row1 {
+  padding: 1px 0px;
+}
+
+.row2 {
+  padding: 1px 0px;
+}
+
+.row3 {
+  padding: 1px 0px;
+}
+
+.row4 {
+  padding: 1px 0px;
+}
+
+.row5 {
+  padding: 1px 0px;
+}
+
+button:hover {
+  height: 45px;
+  width: 45px;
+}
+
+button:active {
+  background-color: #4a4a4a;
+  height: 43px;
+  width: 43px;
+}
+
+.operator:active {
+  background-color: #ffc46b;
+}
+
+.lg-buttons:active {
+  background-color: #c7c7c7;
+}
+
+.calc-output:focus {
+  outline: none;
+}
